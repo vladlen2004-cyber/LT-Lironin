@@ -1,0 +1,588 @@
+<!doctype html>
+<html lang="ru">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <meta name="theme-color" content="">
+
+        <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+        <meta name="format-detection" content="telephone=no">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link type="image/png" href="favicon.png" rel="icon">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+        <meta name="msapplication-tap-highlight" content="no">
+
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+
+        <meta name="MobileOptimized" content="320">
+        <meta name="HandheldFriendly" content="True">
+
+        
+        <!-- Primary Meta Tags -->
+        <meta name="title" content="Lironin">
+        <meta name="description" content="Котлы нового поколения">
+
+
+        <title>Lironin</title>
+
+        <link rel="stylesheet" href="css/plugins.min.css">
+        <link rel="stylesheet" href="css/app.css">
+
+        
+
+
+
+    </head>
+
+   <body class="app home">
+
+        <svg class="main-svg-sprite main-svg-sprite--icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><symbol viewBox="0 0 24 24" id="close" xmlns="http://www.w3.org/2000/svg"><path d="M18.984 6.422 13.406 12l5.578 5.578-1.406 1.406L12 13.406l-5.578 5.578-1.406-1.406L10.594 12 5.016 6.422l1.406-1.406L12 10.594l5.578-5.578z"></path></symbol><symbol viewBox="0 0 25 25" id="form-icon" xmlns="http://www.w3.org/2000/svg"><path d="M15.246 21.515a5.71 5.71 0 0 0 4.032-5.48 5.693 5.693 0 0 0-1.119-3.404.49.49 0 1 1 .793-.575 6.665 6.665 0 0 1 1.305 3.98 6.66 6.66 0 0 1-1.335 4.018 6.773 6.773 0 0 1-3.385 2.396.49.49 0 1 1-.29-.935Z"></path><path d="M2.698 11.44c0-.932.29-1.82.84-2.569l3.099-4.6a.49.49 0 0 1 .812 0l1.306 1.938L12.792.216a.49.49 0 0 1 .812 0l6.93 10.288a9.034 9.034 0 0 1 1.768 5.392c0 5.02-4.084 9.104-9.104 9.104s-9.104-4.084-9.104-9.104c0-.4.027-.802.079-1.198a4.335 4.335 0 0 1-1.475-3.258Zm4.345-6.02L4.35 9.419a3.338 3.338 0 0 0-.673 2.022 3.37 3.37 0 0 0 3.366 3.365 3.37 3.37 0 0 0 3.365-3.365 3.339 3.339 0 0 0-.672-2.021L8.349 7.36l-.007-.012-1.3-1.928Zm-1.97 10.476c0 4.48 3.645 8.125 8.125 8.125s8.125-3.645 8.125-8.125a8.061 8.061 0 0 0-1.601-4.846l-6.524-9.684-3.853 5.72 1.203 1.785c.55.749.84 1.637.84 2.569a4.35 4.35 0 0 1-4.345 4.344c-.7 0-1.363-.167-1.95-.462-.013.19-.02.382-.02.574Z"></path><path d="M8.769 11.32c0-.237-.049-.466-.144-.68a.49.49 0 1 1 .895-.398 2.654 2.654 0 0 1-.953 3.287.487.487 0 0 1-.679-.135.49.49 0 0 1 .135-.679c.467-.312.746-.834.746-1.395ZM13.43 22.193c.12-.315.567-.405.799-.159a.492.492 0 0 1-.251.826c-.375.082-.701-.316-.548-.667ZM7.3 13.975a.492.492 0 0 1-.76-.406c-.008-.384.445-.627.76-.408.286.18.288.636 0 .814Z"></path></symbol><symbol viewBox="0 0 26 25" id="form-icon2" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M15.243 14.267V3.025A3.028 3.028 0 0 0 12.218 0a3.029 3.029 0 0 0-3.026 3.025v11.242a5.81 5.81 0 0 0-2.375 2.843.488.488 0 1 0 .91.354 4.832 4.832 0 0 1 2.187-2.487.488.488 0 0 0 .255-.43V3.026A2.05 2.05 0 0 1 12.218.977a2.05 2.05 0 0 1 2.048 2.048v11.523c0 .179.098.343.255.428a4.818 4.818 0 0 1 2.513 4.231 4.822 4.822 0 0 1-4.817 4.816 4.787 4.787 0 0 1-4.49-3.072.488.488 0 0 0-.91.353 5.77 5.77 0 0 0 2.128 2.684A5.773 5.773 0 0 0 12.218 25a5.8 5.8 0 0 0 5.792-5.793 5.793 5.793 0 0 0-2.767-4.94Z"></path><path clip-rule="evenodd" d="M12.217 4.267a.488.488 0 0 0-.488.488v11.117a3.376 3.376 0 0 0-2.882 3.335 3.375 3.375 0 0 0 3.37 3.371 3.375 3.375 0 0 0 3.372-3.37 3.376 3.376 0 0 0-2.883-3.336V4.755a.488.488 0 0 0-.489-.488Zm2.395 14.94a2.397 2.397 0 0 1-2.395 2.395 2.397 2.397 0 0 1-2.394-2.395 2.397 2.397 0 0 1 2.394-2.394 2.397 2.397 0 0 1 2.395 2.394ZM17.086 5.615h2.537a.488.488 0 1 0 0-.977h-2.537a.488.488 0 1 0 0 .977ZM19.623 6.893h-2.537a.488.488 0 1 0 0 .977h2.537a.488.488 0 0 0 0-.977ZM19.623 9.148h-2.537a.488.488 0 1 0 0 .977h2.537a.488.488 0 1 0 0-.977ZM19.623 11.403h-2.537a.488.488 0 0 0 0 .977h2.537a.488.488 0 1 0 0-.977ZM7.402 19.207a.49.49 0 0 0-.977 0 .49.49 0 0 0 .977 0Z"></path></symbol><symbol viewBox="0 0 26 25" id="form-icon3" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#da)"><path d="M12.75 0C5.857 0 .25 5.607.25 12.5c0 6.892 5.607 12.5 12.5 12.5 6.892 0 12.5-5.608 12.5-12.5 0-6.893-5.608-12.5-12.5-12.5Zm0 23.698c-6.175 0-11.198-5.023-11.198-11.198 0-6.175 5.023-11.198 11.198-11.198 6.175 0 11.198 5.023 11.198 11.198 0 6.175-5.023 11.198-11.198 11.198Z"></path><path d="M16.79 5.62a.65.65 0 0 0-.66 1.121 6.708 6.708 0 0 1 3.296 5.759 6.684 6.684 0 0 1-6.676 6.676A6.684 6.684 0 0 1 6.074 12.5 6.708 6.708 0 0 1 9.37 6.741a.65.65 0 1 0-.66-1.122A8.015 8.015 0 0 0 4.773 12.5c0 4.399 3.579 7.978 7.978 7.978 4.399 0 7.978-3.579 7.977-7.978a8.015 8.015 0 0 0-3.938-6.88Z"></path><path d="M12.75 3.654a.65.65 0 0 0-.65.65V12.5a.65.65 0 0 0 1.3 0V4.305a.65.65 0 0 0-.65-.651Z"></path></g><defs><clipPath id="da"><path transform="translate(.25)" d="M0 0h25v25H0z"></path></clipPath></defs></symbol><symbol viewBox="0 0 26 25" id="form-icon4" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#ea)"><path d="M25.568 11.556 13.901 2.02a1.029 1.029 0 0 0-1.302 0L9.611 4.463V3.195a.495.495 0 0 0-.496-.495H6.24a.495.495 0 0 0-.495.495v4.428L.932 11.556a.495.495 0 0 0 .627.767l2.498-2.042v12.436c0 .274.222.495.495.495h17.396a.496.496 0 0 0 .496-.495V10.282l2.498 2.041a.494.494 0 0 0 .697-.07.496.496 0 0 0-.07-.697ZM6.735 3.69h1.884v1.582L6.735 6.813V3.69Zm14.718 18.531H5.047V9.471l7.779-6.357a.67.67 0 0 1 .848 0l7.78 6.358v12.75Z"></path><g clip-path="url(#eb)"><path d="m18.667 15.105-2.343.806-.945-.542v-1.726l.945-.541 2.343.806a.315.315 0 0 0 .403-.202.315.315 0 0 0-.202-.403l-1.814-.617 1.7-.982a.325.325 0 0 0 .114-.441.325.325 0 0 0-.44-.114l-1.701.983.365-1.877a.317.317 0 0 0-.252-.378.317.317 0 0 0-.378.252l-.479 2.431-.944.542-.718-.416-.013-.013-.73-.428v-1.083l1.864-1.625a.309.309 0 0 0 .025-.454.309.309 0 0 0-.453-.025l-1.436 1.26v-1.99A.325.325 0 0 0 13.25 8a.325.325 0 0 0-.328.328v1.965l-1.436-1.247a.331.331 0 0 0-.453.025c-.113.138-.1.34.025.453l1.864 1.625v1.084l-.73.428-.73.428-.945-.542-.48-2.43a.317.317 0 0 0-.377-.253.317.317 0 0 0-.252.378l.365 1.877-1.7-.982a.325.325 0 0 0-.441.113.326.326 0 0 0 .113.44l1.7.983-1.813.618c-.164.063-.265.239-.202.403.063.164.24.264.403.201l2.343-.806.945.542v1.726h.013l-.945.541-2.343-.806a.315.315 0 0 0-.403.202.315.315 0 0 0 .201.403l1.814.617-1.7.983a.326.326 0 0 0-.114.44c.089.152.29.202.441.114l1.7-.983-.364 1.877a.317.317 0 0 0 .251.378.317.317 0 0 0 .378-.252l.48-2.431.944-.542.743.429.73.428v1.083l-1.864 1.625a.309.309 0 0 0-.025.454.309.309 0 0 0 .454.025l1.436-1.26v1.99c0 .177.138.328.327.328a.325.325 0 0 0 .328-.328v-1.965l1.436 1.26c.138.113.34.1.453-.025a.331.331 0 0 0-.025-.454l-1.89-1.637v-1.084l.731-.428.73-.428.945.542.48 2.43c.037.177.2.29.377.253a.318.318 0 0 0 .252-.378l-.365-1.877 1.7.982a.325.325 0 0 0 .441-.113.325.325 0 0 0-.113-.44l-1.7-.983 1.813-.618c.164-.063.265-.239.202-.403-.063-.164-.24-.264-.403-.201Zm-3.968-.605v.857l-.731.428-.718.416-.743-.429-.73-.428v-1.701l.73-.428.73-.428.731.428.013.013.718.415v.857Z"></path></g></g><defs><clipPath id="ea"><path transform="translate(.75)" d="M0 0h25v25H0z"></path></clipPath><clipPath id="eb"><path transform="translate(6.75 8)" d="M0 0h13v13H0z"></path></clipPath></defs></symbol><symbol viewBox="0 0 26 25" id="form-icon5" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#fa)"><path d="M14.96 2.246a5.873 5.873 0 0 0-3.533 1.19L5.589 7.875H1.601C.856 7.874.25 8.48.25 9.224v6.62c0 .745.606 1.351 1.351 1.351H5.65l5.777 4.392a5.874 5.874 0 0 0 3.534 1.19c.634 0 1.15-.516 1.15-1.15V3.397c0-.635-.516-1.15-1.15-1.15Zm.414 19.381a.414.414 0 0 1-.413.413A5.132 5.132 0 0 1 11.873 21l-5.79-4.402V11.48a.368.368 0 1 0-.738 0v4.978H1.601a.615.615 0 0 1-.614-.614v-6.62c0-.338.276-.613.614-.613h3.744v1.15a.369.369 0 0 0 .737 0V8.424l5.79-4.401a5.132 5.132 0 0 1 3.089-1.04c.227 0 .413.184.413.412v18.231ZM23.822 7.933a8.119 8.119 0 0 0-1.277-1.444.369.369 0 0 0-.49.551c.436.388.827.83 1.161 1.313a7.273 7.273 0 0 1 1.297 4.159 7.272 7.272 0 0 1-1.297 4.159 7.306 7.306 0 0 1-3.327 2.645c-.48.19-.823-.573-.307-.777a6.448 6.448 0 0 0 4.096-6.027 6.448 6.448 0 0 0-4.096-6.028.415.415 0 0 1-.235-.542.418.418 0 0 1 .542-.234c.321.127.636.278.935.448a.368.368 0 1 0 .365-.64 8.095 8.095 0 0 0-1.029-.494 1.156 1.156 0 0 0-1.484 1.532c.122.283.348.502.634.615a5.715 5.715 0 0 1 3.63 5.343 5.715 5.715 0 0 1-3.63 5.342 1.147 1.147 0 0 0-.634.615 1.146 1.146 0 0 0-.014.884A1.149 1.149 0 0 0 20.16 20a8.043 8.043 0 0 0 3.663-2.91 8.009 8.009 0 0 0 1.427-4.58c0-1.646-.494-3.229-1.428-4.578Z"></path><path d="M20.747 15.639a.369.369 0 0 0-.521-.007 4.305 4.305 0 0 1-2.476 1.194c-.577.073-.61-.765-.105-.829a3.519 3.519 0 0 0 3.067-3.485 3.519 3.519 0 0 0-3.067-3.486.418.418 0 0 1 .105-.828 4.356 4.356 0 0 1 3.798 4.314c0 .695-.17 1.387-.491 2.003a.368.368 0 1 0 .654.341c.375-.72.574-1.531.574-2.344a5.094 5.094 0 0 0-4.442-5.045 1.146 1.146 0 0 0-.852.232c-.244.189-.4.461-.439.767-.039.306.044.61.233.853.189.244.461.4.767.438a2.78 2.78 0 0 1 2.423 2.755 2.78 2.78 0 0 1-2.423 2.754c-.631.08-1.08.66-1 1.291a1.156 1.156 0 0 0 1.291 1 5.034 5.034 0 0 0 2.896-1.397.368.368 0 0 0 .008-.521Z"></path></g><defs><clipPath id="fa"><path transform="translate(.25)" d="M0 0h25v25H0z"></path></clipPath></defs></symbol><symbol viewBox="0 0 26 25" id="form-icon6" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#ga)"><path d="M25.212 17.826 16.74 3.152a4.043 4.043 0 0 0-3.49-2.017 4.042 4.042 0 0 0-3.49 2.017L1.288 17.826a4.026 4.026 0 0 0 3.49 6.039h16.944a4.027 4.027 0 0 0 3.49-6.04Zm-3.49 5.306H4.778a3.294 3.294 0 0 1-2.856-4.94l8.472-14.674a3.308 3.308 0 0 1 2.856-1.65c1.173 0 2.268.632 2.856 1.65l8.471 14.674a3.294 3.294 0 0 1-2.855 4.94Z"></path><path d="M23.52 18.802 15.05 4.13a2.084 2.084 0 0 0-1.799-1.04c-.739 0-1.428.398-1.798 1.04l-3.87 6.702a.366.366 0 1 0 .634.367l3.87-6.703a1.35 1.35 0 0 1 1.164-.674c.478 0 .924.258 1.164.674l8.472 14.674a1.344 1.344 0 0 1-1.164 2.011H4.778a1.344 1.344 0 0 1-1.164-2.011l3.87-6.703a.366.366 0 0 0-.635-.366l-3.87 6.702a2.078 2.078 0 0 0 1.798 3.11h16.945a2.078 2.078 0 0 0 1.798-3.11Z"></path><path d="M13.25 6.287c-.875 0-1.587.712-1.587 1.587v6.592c0 .875.712 1.587 1.587 1.587s1.587-.712 1.587-1.587V7.874c0-.875-.712-1.587-1.587-1.587Zm.854 8.179a.855.855 0 0 1-1.708 0V7.874a.856.856 0 0 1 1.708 0v6.592ZM13.25 16.785c-.875 0-1.587.712-1.587 1.587s.712 1.587 1.587 1.587 1.587-.712 1.587-1.587-.712-1.587-1.587-1.587Zm0 2.441a.856.856 0 0 1 0-1.709.855.855 0 0 1 0 1.71Z"></path></g><defs><clipPath id="ga"><path transform="translate(.75)" d="M0 0h25v25H0z"></path></clipPath></defs></symbol><symbol viewBox="0 0 24 24" id="menu" xmlns="http://www.w3.org/2000/svg"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></symbol><symbol viewBox="0 0 24 24" id="phone" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M19.5 21.75h-.128C4.635 20.902 2.543 8.468 2.25 4.673A2.25 2.25 0 0 1 4.5 2.25h3.953a1.5 1.5 0 0 1 1.395.945L10.988 6a1.5 1.5 0 0 1-.33 1.62L9.06 9.233a7.02 7.02 0 0 0 5.685 5.7l1.627-1.613A1.5 1.5 0 0 1 18 13.012l2.828 1.133a1.5 1.5 0 0 1 .922 1.395v3.96a2.25 2.25 0 0 1-2.25 2.25Zm-15-18a.75.75 0 0 0-.75.81C4.095 9 6.308 19.5 19.455 20.25a.75.75 0 0 0 .795-.75v-3.96l-2.828-1.132-2.152 2.137-.36-.045C8.385 15.682 7.5 9.158 7.5 9.09l-.045-.36 2.13-2.152L8.46 3.75H4.5Z"></path><mask id="ia" mask-type="alpha" maskUnits="userSpaceOnUse" x="2" y="2" width="20" height="20"><path clip-rule="evenodd" d="M19.5 21.75h-.128C4.635 20.902 2.543 8.468 2.25 4.673A2.25 2.25 0 0 1 4.5 2.25h3.953a1.5 1.5 0 0 1 1.395.945L10.988 6a1.5 1.5 0 0 1-.33 1.62L9.06 9.233a7.02 7.02 0 0 0 5.685 5.7l1.627-1.613A1.5 1.5 0 0 1 18 13.012l2.828 1.133a1.5 1.5 0 0 1 .922 1.395v3.96a2.25 2.25 0 0 1-2.25 2.25Zm-15-18a.75.75 0 0 0-.75.81C4.095 9 6.308 19.5 19.455 20.25a.75.75 0 0 0 .795-.75v-3.96l-2.828-1.132-2.152 2.137-.36-.045C8.385 15.682 7.5 9.158 7.5 9.09l-.045-.36 2.13-2.152L8.46 3.75H4.5Z"></path></mask></symbol><symbol viewBox="0 0 32 32" id="search" xmlns="http://www.w3.org/2000/svg"><path d="M19.427 20.427a8.5 8.5 0 1 1 2-2l5.585 5.585c.55.55.546 1.431 0 1.976l-.023.023a1.398 1.398 0 0 1-1.976 0l-5.585-5.585zM14.5 20a6.5 6.5 0 1 0 0-13 6.5 6.5 0 0 0 0 13z"></path></symbol></svg><svg class="main-svg-sprite main-svg-sprite--colored" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><symbol id="marmelad" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><style>.ast6{fill:#fff}</style><path fill="#f7e018" d="M272 274.8c-37.5 0-67.9-30.4-67.9-67.9 0-31.4-25.6-57-57-57-37.5 0-67.9-30.4-67.9-67.9s30.4-67.9 67.9-67.9c106.3 0 192.8 86.5 192.8 192.8 0 37.5-30.4 67.9-67.9 67.9z"></path><path fill="#1988c6" d="M243.8 394.9c0-37.5 30.4-67.9 67.9-67.9 31.4 0 57-25.6 57-57 0-37.5 30.4-67.9 67.9-67.9s67.9 30.4 67.9 67.9c0 106.3-86.5 192.8-192.8 192.8-37.5 0-67.9-30.4-67.9-67.9z"></path><path fill="#f16524" d="M133.5 200.3c31.3 20.7 39.9 62.8 19.2 94.1-17.3 26.2-10.1 61.6 16.1 79 31.3 20.7 39.9 62.8 19.2 94.1s-62.8 39.9-94.1 19.2C5.2 427.9-19.2 308.1 39.4 219.5c20.7-31.3 62.8-39.9 94.1-19.2z"></path><path fill="#e5cd1a" d="M234.1 206.9c0-31.4-25.6-57-57-57-37.5 0-67.9-30.4-67.9-67.9 0-33.7 24.5-61.7 56.7-67-6.2-.6-12.5-.9-18.8-.9-37.5 0-67.9 30.4-67.9 67.9s30.4 67.9 67.9 67.9c31.4 0 57 25.6 57 57 0 37.5 30.4 67.9 67.9 67.9 5.2 0 10.2-.6 15-1.7-30.3-6.8-52.9-33.8-52.9-66.2z"></path><path fill="#1c73ba" d="M273.8 394.9c0-37.5 30.4-67.9 67.9-67.9 31.4 0 57-25.6 57-57 0-32.3 22.6-59.4 52.9-66.2-4.8-1.1-9.8-1.7-15-1.7-37.5 0-67.9 30.4-67.9 67.9 0 31.4-25.6 57-57 57-37.5 0-67.9 30.4-67.9 67.9s30.4 67.9 67.9 67.9c6.4 0 12.6-.3 18.8-.9-32.1-5.3-56.7-33.3-56.7-67z"></path><path fill="#e54c21" d="M123.9 486.6C35.2 427.9 10.8 308.1 69.4 219.5c10.1-15.2 25.2-25.1 41.7-28.8-26.8-6.1-55.7 4.5-71.7 28.8C-19.2 308.2 5.2 428 93.9 486.6c16.1 10.6 35 13.5 52.4 9.6-7.8-1.8-15.4-5-22.4-9.6z"></path><path d="M347.4 206.9c0-110.4-89.8-200.3-200.3-200.3-41.6 0-75.4 33.8-75.4 75.4s33.8 75.4 75.4 75.4c27.3 0 49.5 22.2 49.5 49.5 0 41.6 33.8 75.4 75.4 75.4 41.6 0 75.4-33.8 75.4-75.4zm-135.8 0c0-35.6-28.9-64.5-64.5-64.5-33.3 0-60.4-27.1-60.4-60.4s27.1-60.4 60.4-60.4c102.2 0 185.3 83.1 185.3 185.3 0 33.3-27.1 60.4-60.4 60.4s-60.4-27.1-60.4-60.4z"></path><path d="M120.7 82h-15c0 22.9 18.6 41.4 41.4 41.4 17.7 0 34.7 5.5 49 15.9l8.8-12.1c-16.9-12.3-36.9-18.8-57.8-18.8-14.5.1-26.4-11.8-26.4-26.4zm186.7 80.2c-12.8-45.8-44.8-84.1-87.7-105l-6.6 13.5c39.1 19 68.2 53.8 79.8 95.5l14.5-4zM190.9 62.1c4.5 1.4 9.1 3 13.5 4.8l5.7-13.9c-4.8-2-9.8-3.8-14.8-5.3l-4.4 14.4zM185.2 45c-5.1-1.2-10.3-2.2-15.5-2.9l-2 14.9c4.7.6 9.4 1.5 14.1 2.6l3.4-14.6z" class="ast6"></path><path d="M436.6 194.7c-41.6 0-75.4 33.8-75.4 75.4 0 27.3-22.2 49.5-49.5 49.5-41.6 0-75.4 33.8-75.4 75.4s33.8 75.4 75.4 75.4c110.4 0 200.3-89.8 200.3-200.3 0-41.6-33.8-75.4-75.4-75.4zM311.7 455.3c-33.3 0-60.4-27.1-60.4-60.4s27.1-60.4 60.4-60.4c35.6 0 64.5-28.9 64.5-64.5 0-33.3 27.1-60.4 60.4-60.4S497 236.7 497 270c0 102.2-83.1 185.3-185.3 185.3z"></path><path d="m407.5 312.4 14.1 5.1c1.8-5.1 3.3-10.3 4.3-15.6l-14.7-2.8c-.9 4.6-2.1 9-3.7 13.3zm-10.7 20.3 12.2 8.7c3.1-4.4 5.9-9.1 8.3-13.9l-13.4-6.6c-2 4.1-4.4 8-7.1 11.8z"></path><path d="M363.3 326.9c-14.2 12.9-32.5 19.9-51.6 19.9-26.5 0-48.1 21.6-48.1 48.1h15c0-18.2 14.8-33.1 33.1-33.1 22.8 0 44.7-8.5 61.6-23.8l-10-11.1z" class="ast6"></path><path d="m365.6 418.5 5.1 14.1c4.9-1.8 9.8-3.8 14.5-6l-6.4-13.6c-4.3 2.1-8.7 3.9-13.2 5.5zm-22.9 6.4 2.9 14.7c5.1-1 10.2-2.3 15.2-3.8l-4.3-14.4c-4.5 1.5-9.2 2.6-13.8 3.5zm-23.7 2.9.7 15c5.2-.2 10.5-.7 15.6-1.4l-2-14.9c-4.8.7-9.5 1.1-14.3 1.3z"></path><path d="m481.9 254.1-14.1 5c1.2 3.5 1.9 7.2 1.9 11 0 32.2-9.7 63.3-28 89.7l12.3 8.5c20.1-29 30.7-63 30.7-98.3 0-5.4-1-10.8-2.8-15.9zM454 225.3c-5.5-2.2-11.4-3.3-17.4-3.3v15c4.1 0 8.1.8 11.9 2.2l5.5-13.9zm10.2 26.5 12.5-8.3c-3.3-5-7.4-9.2-12.3-12.7l-8.7 12.2c3.4 2.5 6.2 5.4 8.5 8.8z" class="ast6"></path><path d="M172.9 367c-22.8-15-29-45.8-14-68.6 11.1-16.8 15-36.9 11-56.6-4-19.7-15.5-36.7-32.3-47.8-16.8-11.1-36.9-15-56.6-11-19.7 4-36.7 15.5-47.8 32.3-60.9 92.1-35.5 216.6 56.6 277.5 12.5 8.3 26.8 12.5 41.4 12.5 5.1 0 10.2-.5 15.2-1.5 19.7-4 36.7-15.5 47.8-32.3s15-36.9 11-56.6c-4-19.8-15.5-36.8-32.3-47.9zm8.8 96.2c-8.9 13.5-22.5 22.6-38.3 25.9-15.8 3.2-31.9.1-45.4-8.8C12.8 424-10.7 308.8 45.7 223.6c8.9-13.5 22.5-22.6 38.3-25.9 4.1-.8 8.1-1.2 12.2-1.2 11.7 0 23.2 3.4 33.2 10 13.5 8.9 22.6 22.5 25.9 38.3 3.2 15.8.1 31.9-8.8 45.4-19.6 29.7-11.4 69.7 18.2 89.4 13.5 8.9 22.6 22.5 25.9 38.3 3.1 15.8 0 31.9-8.9 45.3z"></path><path d="M116.8 452C100.1 441 86 427.1 75 410.8l-12.4 8.4c12.2 18 27.6 33.2 45.9 45.3 6.9 4.5 14.7 6.9 22.8 6.9 2.8 0 5.6-.3 8.4-.9l-3-14.7c-7 1.5-14.1.1-19.9-3.8zm5.1-200.4c.4 1.8.5 3.6.5 5.4 0 5.1-1.5 10.2-4.4 14.5-10.7 16.2-16.3 34.8-16.3 54.1 0 6.6.7 13.3 2 19.9l14.7-3c-1.1-5.6-1.7-11.3-1.7-16.9 0-16.3 4.8-32.1 13.8-45.8 4.5-6.8 6.9-14.7 6.9-22.8 0-2.8-.3-5.6-.8-8.4-.3-1.3-.6-2.6-1-3.9l-14.3 4.4c.3.8.5 1.7.6 2.5zm-3.9-9.5 12.4-8.4c-3-4.5-6.9-8.3-11.5-11.4-.6-.4-1.1-.7-1.7-1.1l-7.7 12.9c.4.2.7.5 1.1.7 3 2 5.4 4.4 7.4 7.3zm-15.7-10.9 3.6-14.6c-5.9-1.5-12.1-1.6-18.2-.3l3 14.7c3.9-.8 7.9-.7 11.6.2z" class="ast6"></path></symbol></svg>
+
+
+
+        <div class="app__wrapper">
+
+            <header class="app-header">
+	<div class="app-header__content site-width">
+		<div class="app-header__logo">
+			<a href="/index.html"><img src="img/logo.png"></a>
+		</div>
+		<a href="#" class="app-header__open">
+			<div class="app-header__open-in"></div>
+		</a>
+		<nav class="app-header__lists">
+			<ul class="app-header__list">
+				<li><a class="js-scroll" href="#friends">Преимущества</a></li>
+				<!-- <li><a class="js-scroll" href="#form">Расчет стоимости</a></li> -->
+				<li><a class="js-scroll" href="#slider">Команда</a></li>
+				<li><a class="js-scroll" href="#certificates">Сертификаты</a></li>
+				<li><a class="js-scroll" href="#contacts">Контакты</a></li>
+			</ul>
+		</nav>
+		<div class="app-header__block">
+			<div class="app-header__phone"><a href="tel:+998990000000">+998 (99) 000-00-00</a></div>
+			<div class="app-header__button"><a href="#popup" class="btn-1">Заказать звонок</a></div>
+		</div>
+	</div>
+</header><!-- b:app-header -->
+
+
+
+<div class="b-fixed">
+	<div class="b-fixed__shadow js-close"></div>
+	<a class="b-fixed__close js-close" href="#">
+		
+      <div class="svg-icon svg-icon--close" aria-hidden="true">
+        <svg class="svg-icon__link">
+          <use xlink:href="#close"></use>
+        </svg>
+      </div>
+    
+	</a>
+	<div class="b-fixed__content">
+		<nav class="b-fixed__list">
+			<ul class="b-fixed__list-menu">
+				<li><a class="js-scroll" href="#friends"><div class="site-width">Преимущества</div></a></li>
+				<li><a class="js-scroll" href="#slider"><div class="site-width">Команда</div></a></li>
+				<li><a class="js-scroll" href="#certificates"><div class="site-width">Сертификаты</div></a></li>
+				<li><a class="js-scroll" href="#contacts"><div class="site-width">Контакты</div></a></li>
+			</ul>
+		</nav>
+		<div class="b-fixed__container site-width">
+			<div class="b-fixed__block">
+				<div class="b-fixed__phone"><a href="tel:+998990000000">+998 (99) 000-00-00</a></div>
+				<div class="b-fixed__button"><a class="btn-1" href="#popup">Заказать звонок</a></div>
+			</div>
+		</div>		
+	</div>
+</div>	
+
+
+
+
+            <div class="app__content">
+
+                
+
+                <main class="app__main">
+                    
+
+<div class="b-main">
+	<div class="b-line"></div>
+	<div class="b-main__content site-width">
+		<div class="b-main__info">
+			<div class="b-main__title wow animate__fadeInLeft">Lorem ipsum dolor sit amet.</div>
+			<div class="b-main__text wow animate__fadeInLeft" data-wow-delay=".1s">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id nostrum eum excepturi ratione debitis, temporibus vel, distinctio aut autem? Provident, laboriosam. Dignissimos, iusto, ea! Eaque officia recusandae, perferendis sint laudantium.</div>
+			<div class="b-main__button wow animate__fadeInLeft" data-wow-delay=".2s"><a href="#popup2" class="btn-1">Получить консультацию</a></div>
+		</div>
+		<div class="b-main__block">
+			<div class="b-main__img wow animate__fadeInUp" data-wow-delay=".3s"><img src="img/main-img.png"></div>
+			<div class="b-main__circle"></div>
+		</div>	
+		<div class="b-main__arrow">
+			<a href="#about" class="b-main__arrow-in">
+				<img src="img/arrow.svg">
+				<div class="b-main__arrow-text">Листайте ниже</div>
+			</a>
+		</div>
+	</div>
+</div><!-- b-main -->
+<div id="about" class="b-about">
+	<div class="b-about__bg-text wow animate__fadeInLeft" data-wow-delay="1.4s" data-wow-duration="2s">LIRONIN</div>
+	<div class="b-about__content site-width">
+		<div class="b-about__info wow animate__fadeInUp">
+			<div class="b-about__title">LIRONIN</div>
+			<div class="b-about__text">– сертифицированный сервис <span>по обслуживанию и ремонту</span> <span>вашего газового котла</span></div>
+		</div>
+		<div class="b-about__items">
+			<div class="b-about__item wow animate__fadeInUp" data-wow-delay=".4s">
+				<div class="b-about__img"><div class="b-about__img-in"><img src="img/about-img.svg"></div></div>
+				<div class="b-about__block">
+					<div class="b-about__item-title">Lorem, ipsum.</div>
+					<div class="b-about__item-text">Используем инструменты Milwaukee (Германия), Testo (Германия), REMS (Германия), BernzOmatik (Польша).</div>
+				</div>	
+			</div>	
+			<div class="b-about__item wow animate__fadeInUp" data-wow-delay=".6s">
+				<div class="b-about__img"><div class="b-about__img-in"><img src="img/about-img.svg"></div></div>
+				<div class="b-about__block">
+					<div class="b-about__item-title">Lorem, ipsum dolor sit amet consectetur, adipisicing.</div>
+					<div class="b-about__item-text">Мастер приедет на ремонт со всеми возможными решениями вашей проблемы, сделает «под ключ» сразу</div>
+				</div>	
+			</div>	
+			<div class="b-about__item wow animate__fadeInUp" data-wow-delay=".8s">
+				<div class="b-about__img"><div class="b-about__img-in"><img src="img/about-img.svg"></div></div>
+				<div class="b-about__block">
+					<div class="b-about__item-title">Lorem ipsum, dolor sit amet consectetur adipisicing.</div>
+					<div class="b-about__item-text">К вам приедет официально устроенный сотрудник нашей организации</div>
+				</div>	
+			</div>	
+			<div class="b-about__item wow animate__fadeInUp" data-wow-delay="1s">
+				<div class="b-about__img"><div class="b-about__img-in"><img src="img/about-img.svg"></div></div>
+				<div class="b-about__block">
+					<div class="b-about__item-title">Lorem ipsum dolor sit amet consectetur adipisicing.</div>
+					<div class="b-about__item-text">Мастер прибудет на ремонт с точностью до 15 минут в указанное время</div>
+				</div>	
+			</div>	
+			<div class="b-about__item wow animate__fadeInUp" data-wow-delay="1.2s">
+				<div class="b-about__img"><div class="b-about__img-in"><img src="img/about-img.svg"></div></div>
+				<div class="b-about__block">
+					<div class="b-about__item-title">Lorem, ipsum.</div>
+					<div class="b-about__item-text">Сами доставим любое габаритное оборудование.</div>
+				</div>	
+			</div>	
+		</div>	
+	</div>
+</div><!-- b-about -->
+<div class="b-recommendation">
+	<div class="b-line"></div>
+	<div class="b-recommendation__content site-width wow animate__fadeInUp" data-wow-delay="1s">
+		<h1 class="b-recommendation__info">
+			<div class="b-recommendation__info-title">LIRONIN</div>
+			<div class="b-recommendation__info-text"> – рекомендован производителями газовых котлов</div>
+		</h1>
+		<div class="b-recommendation__text">Сотрудники аттестованы и имеют допуски на работу ведущими производителями газовых котлов</div>
+		<div class="b-recommendation__items owl-carousel">
+			<div class="b-recommendation__item"><img src="img/recommendation-img1.png"></div>
+			<div class="b-recommendation__item"><img src="img/recommendation-img2.jpg"></div>
+			<div class="b-recommendation__item"><img src="img/recommendation-img3.jpg"></div>
+			<div class="b-recommendation__item"><img src="img/recommendation-img4.jpg"></div>
+			<div class="b-recommendation__item"><img src="img/recommendation-img5.png"></div>
+			<div class="b-recommendation__item"><img src="img/recommendation-img5.png"></div>
+		</div>	
+	</div>
+</div><!-- b-recommendation -->
+
+
+<div class="b-documents">
+	<div class="b-documents__inner site-width">
+		<div class="b-documents__title site-title wow animate__fadeInUp">
+			Наши документы принимают <span>АО «Мособлгаз»</span> и <span>АО «Мосгаз»</span>
+		</div>
+		<div class="b-documents__items">
+			<div class="b-documents__item wow animate__fadeInLeft" data-wow-delay="1.1s">
+				<div class="b-documents__circle">
+					<img src="img/documents-img1.svg">
+				</div>
+				<div class="b-documents__text">«Энергобыт Сервис» внесён в реестр Государственной жилищной инспекции Московской области</div>
+			</div>
+			<div class="b-documents__item wow animate__fadeInLeft" data-wow-delay=".8s">
+				<div class="b-documents__circle">
+					<img src="img/documents-img2.svg">
+				</div>
+				<div class="b-documents__text">Все специалисты периодически проходят обучение в «УКК „Мособлгаз“»</div>
+			</div>
+			<div class="b-documents__item wow animate__fadeInLeft" data-wow-delay=".5s">
+				<div class="b-documents__circle"><img src="img/documents-img3.svg"></div>
+				<div class="b-documents__text">Заключено «Соглашение об аварийно диспетчерском обеспечении» с АО «Мособлгаз»</div>
+			</div>
+		</div>	
+	</div>
+</div><!-- b-accept -->
+
+
+<div class="b-working">
+	<div class="b-working__inner site-width">
+		<div class="b-working__container">
+			<div class="b-working__content wow animate__fadeInUp" data-wow-delay="1s">
+				<div class="b-working__title site-title">В каких регионах работаем?</div>
+				<div class="b-working__subtitle">
+					У нас есть мастер из Вашего района
+				</div>
+				<div class="b-working__text">
+					Мастер приедет к вам с точностью до 15 минут в оговоренное время
+					и привезет все необходимые инструменты, оборудование и запчасти.
+				</div>
+				<div class="b-working__block">
+					<div class="b-working__button"><a href="#popup2" class="btn-1">Получить бесплатную консультацию</a></div>
+					<div class="b-working__subtext">* Стоимость за пределы зоны покрытия обсуждается индивидуально</div>
+				</div>	
+			</div>
+			<div id="map_contact" class="b-working__map wow animate__fadeIn" data-wow-duration="3s">
+				<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A8504209364d7e6d370faf282cb4481b4eae71b91b324d28fc3b56091cc2a628f&amp;source=constructor" width="100%" height="334" frameborder="0"></iframe>
+			</div>
+		</div>	
+	</div>
+</div><!-- b-working -->
+<div class="b-trust">
+	<div class="b-trust__inner site-width">
+		<div class="b-trust__container">
+			<div class="b-trust__img wow animate__fadeInUp" data-wow-delay="1.5s"><img src="img/trust-img.png"></div>
+			<div class="b-trust__content">
+				<div class="b-trust__title site-title wow animate__fadeInUp">Вам можно доверять?</div>
+				<div class="b-trust__text wow animate__fadeInUp" data-wow-delay=".6s">
+					<p>Скажите, вы доверяете врачам? Так вот, мы скорая помощь для газового оборудования. Каждый раз, когда мы выезжаем на объект - мы знаем, что справимся со своей работой на отлично, какой бы сложной она не была.</p>
+					<p>Мы официальный сертифицированный центр по облуживанию и ремонту котлов, качество нашей работы подтверждено лицензиями ведущих мировых производителей газового оборудования.</p>
+				</div>
+				<div class="b-trust__note wow animate__fadeInUp" data-wow-delay=".9s">Просто позвоните нам и убедитесь во всём сами :)</div>
+				<div class="b-trust__button wow animate__fadeInUp" data-wow-delay="1.2s">
+					<a href="#popup" class="btn-1">Вызвать скорую помощь для газового оборудования</a>
+					<div class="b-trust__arrow">
+						<img src="img/trust-arrow.svg">
+					</div>
+				</div>
+			</div>	
+		</div>	
+	</div>	
+</div><!-- b-trust -->
+<div id="slider" class="b-slider">
+	<div class="b-slider__content site-width">
+		<div class="b-slider__block">
+			<div class="b-slider__title site-title">Наша команда</div>
+		</div>
+		<div class="b-slider__container">
+			<div class="b-slider__items owl-carousel">
+				<div class="b-slider__item">
+					<a href="img/team-1.jpg" class="b-slider__img spotlight"><img src="img/team-1.jpg"></a>
+					<div class="b-slider__item-block">
+						<div class="b-slider__item-title">Константин Константинопольский</div>
+						<div class="b-slider__item-text">Главный инженер</div>
+					</div>
+				</div>	
+				<div class="b-slider__item">
+					<a href="img/team-2.jpg" class="b-slider__img spotlight"><img src="img/team-2.jpg"></a>
+					<div class="b-slider__item-block">
+						<div class="b-slider__item-title">Константин Константинопольский</div>
+						<div class="b-slider__item-text">Главный инженер</div>
+					</div>
+				</div>	
+				<div class="b-slider__item">
+					<a href="img/team-3.jpg" class="b-slider__img spotlight"><img src="img/team-3.jpg"></a>
+					<div class="b-slider__item-block">
+						<div class="b-slider__item-title">Константин Константинопольский</div>
+						<div class="b-slider__item-text">Главный инженер</div>
+					</div>
+				</div>	
+				<div class="b-slider__item">
+					<a href="img/team-4.jpg" class="b-slider__img spotlight"><img src="img/team-4.jpg"></a>
+					<div class="b-slider__item-block">
+						<div class="b-slider__item-title">Константин Константинопольский</div>
+						<div class="b-slider__item-text">Главный инженер</div>
+					</div>
+				</div>	
+				<div class="b-slider__item">
+					<a href="img/team-5.jpg" class="b-slider__img spotlight"><img src="img/team-5.jpg"></a>
+					<div class="b-slider__item-block">
+						<div class="b-slider__item-title">Константин Константинопольский</div>
+						<div class="b-slider__item-text">Главный инженер</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</div>
+</div><!-- b-slider -->
+<div class="b-friends">
+	<div id="friends" class="b-friends__inner site-width wow animate__fadeInUp" data-wow-delay=".3s">
+		<div class="b-friends__title site-title">Друзья!</div>
+		<div class="b-friends__text b-friends__text--none">
+			Мы не можем позволить себе уйти на выходные — ни на неделю, ни тем более дольше. Наши услуги — первой необходимости, и зачастую они экстренные. Особенно сейчас, когда многие семьи перебрались в загородные дома: исправно работающие отопление и горячая вода жизненно необходимы.
+		</div>
+		<div class="b-friends__items">
+			<div class="b-friends__item b-friends__item--second">
+				<div class="b-friends__subtitle">
+					Продолжаем работать:
+				</div>
+				<div class="b-friends__text">
+					<ul>
+						<li>Инженеры оказывают все услуги в штатном режиме</li>
+						<li>Готовы выехать к вам в случае аварии или поломки оборудования</li>
+						<li>Офисы открыты и работают по обычному расписанию</li>
+					</ul>
+				</div>
+			</div>
+			<div class="b-friends__item">
+				<div class="b-friends__subtitle">
+					Приняли меры предосторожности в офисе и на объектах:
+				</div>
+				<div class="b-friends__text">
+					<ul>
+						<li>Носим маски и перчатки</li>
+						<li>Запаслись антисептиком</li>
+						<li>Держим дистанцию</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="b-friends__about">
+			<div class="b-friends__subtitle">
+				Вы можете оставаться дома
+			</div>
+			<div class="b-friends__text">
+				<ul>
+					<li>Нет необходимости приезжать в офис. Мы окажем любое содействие по решению вопроса дистанционно или направим курьера</li>
+					<li>По возможности предварительно обсудите задачу с инженером по телефону, чтобы он мог осуществить работы без вашего присутствия</li>
+					<li>Акт о выполненных работах сразу отправим вам на почту или телефон</li>
+					<li>Оплату также принимаем банковской картой по ссылке</li>
+				</ul>
+			</div>
+		</div>
+	</div>	
+</div><!-- b-friends -->
+
+
+
+
+<div id="certificates" class="b-certificates">
+	<div class="b-certificates__content site-width">
+		<div class="b-certificates__title site-title wow animate__fadeInUp">Сертификаты</div>
+		<div class="b-certificates__items owl-carousel wow animate__fadeInUp">
+			<div class="b-certificates__item">
+				<a class="b-certificates__img spotlight" href="img/certificates-img.png"><img src="img/certificates-img.png"></a>
+				<div class="b-certificates__text">OOO LIRONIN</div>
+			</div>	
+			<div class="b-certificates__item">
+				<a class="b-certificates__img spotlight" href="img/certificates-img.png"><img src="img/certificates-img.png"></a>
+				<div class="b-certificates__text">OOO LIRONIN</div>
+			</div>	
+			<div class="b-certificates__item">
+				<a class="b-certificates__img spotlight" href="img/certificates-img.jpg"><img src="img/certificates-img.jpg"></a>
+				<div class="b-certificates__text">OOO LIRONIN</div>
+			</div>	
+			<div class="b-certificates__item">
+				<a class="b-certificates__img spotlight" href="img/certificates-img2.jpg"><img src="img/certificates-img2.jpg"></a>
+				<div class="b-certificates__text">OOO LIRONIN</div>
+			</div>	
+			<div class="b-certificates__item">
+				<a class="b-certificates__img spotlight" href="img/certificates-img3.jpg"><img src="img/certificates-img3.jpg"></a>
+				<div class="b-certificates__text">OOO LIRONIN</div>
+			</div>	
+		</div>	
+	</div>
+</div><!-- b-certificates -->
+
+
+
+
+<div id="contacts" class="b-contacts">
+	<div class="b-contacts__content site-width">
+		<div class="b-contacts__in wow animate__fadeInUp" data-wow-delay=".8s">
+			<div class="b-contacts__title">Контакты</div>
+			<div class="b-contacts__address">г.Москва, Рязанский проспект, д.10, стр.18, офис 4.16. Бизнес Центр Хамелеон</div>
+			<a href="tel:+998990000000" class="b-contacts__phone">
+				
+      <div class="svg-icon svg-icon--phone" aria-hidden="true">
+        <svg class="svg-icon__link">
+          <use xlink:href="#phone"></use>
+        </svg>
+      </div>
+    
+				+998 (99) 000-00-00
+			</a>
+			<a href="tel:+998990000000" class="b-contacts__phone">
+				
+      <div class="svg-icon svg-icon--phone" aria-hidden="true">
+        <svg class="svg-icon__link">
+          <use xlink:href="#phone"></use>
+        </svg>
+      </div>
+    
+				+998 (99) 000-00-00
+			</a>
+			<div class="b-contacts__text">
+				Мы принимаем звонки в рабочие дни с 9:00 до 18:00 по Московскому времени. В нерабочее время и праздники вы можете связаться с нами по форме обратной связи
+			</div>
+			<div class="b-contacts__social">
+				<a href="mailto:info@tthn.ru" class="b-contacts__mail">Mail</a>
+				<a href="https://t.me/kotlyotopleniya" class="b-contacts__telegram">
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M22.9817 4.2362L19.5288 20.1885C19.3787 20.918 18.4779 21.2585 17.8274 20.8208L12.623 17.1245L9.97076 19.7508C9.52038 20.1885 8.71971 20.0426 8.51954 19.4103L6.61794 13.5255L1.51365 12.0664C0.863105 11.8719 0.813064 10.9478 1.46361 10.7047L21.5805 3.06896C22.3311 2.77715 23.1318 3.45804 22.9817 4.2362ZM7.71868 12.893L18.778 6.22998C19.0282 6.08407 19.2784 6.42451 19.0782 6.66769L9.72036 14.6925C9.62028 14.7411 9.57024 14.887 9.57024 14.9843L9.21994 18.0969C9.21994 18.1942 9.06982 18.1942 9.01977 18.0969L7.51851 13.4766C7.41843 13.2334 7.51851 12.9902 7.71868 12.893Z" fill="#fff"></path></svg>
+				</a>
+				<a href="https://www.youtube.com/channel/UCvhnpKTgadAczl_d8-qyiJQ" class="b-contacts__youtube">
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><g clip-path="url(#a)"><path fill-rule="evenodd" clip-rule="evenodd" d="M0.943219 5.47792C0 6.7871 0 8.52655 0 12.0055C0 15.4844 0 17.2238 0.943219 18.533C1.17846 18.8595 1.49042 19.1942 1.79961 19.4518C3.03933 20.4846 4.68135 20.6002 7.96539 20.8313H7.96541C9.36913 20.9301 10.7723 20.997 12 20.997C13.2277 20.997 14.6309 20.9301 16.0346 20.8313H16.0346C19.3186 20.6002 20.9607 20.4846 22.2004 19.4518C22.5096 19.1942 22.8215 18.8595 23.0568 18.533C24 17.2238 24 15.4844 24 12.0055C24 8.52655 24 6.7871 23.0568 5.47792C22.8215 5.1514 22.5096 4.81672 22.2004 4.55913C20.9607 3.52631 19.3186 3.41073 16.0346 3.17958C14.6309 3.08077 13.2277 3.01395 12 3.01395C10.7723 3.01395 9.36913 3.08077 7.96541 3.17958C4.68136 3.41073 3.03933 3.52631 1.79961 4.55913C1.49042 4.81672 1.17846 5.1514 0.943219 5.47792ZM16.6896 12.8314C17.3919 12.4541 17.3919 11.4469 16.6896 11.0696L9.6005 7.26067C8.9343 6.90272 8.1272 7.38529 8.1272 8.14157V15.7594C8.1272 16.5157 8.9343 16.9983 9.6005 16.6403L16.6896 12.8314Z" fill="#fff"></path></g><defs><clipPath id="a"><path fill="#fff" d="M0 0H24V24H0z"></path></clipPath></defs></svg>
+				</a>
+			</div>
+			<a class="b-contacts__button btn-1" href="#popup2">Отправить сообщение</a>
+		</div>
+		<div id="contactMap" class="b-contacts__map wow animate__fadeInRight"><!-- map --></div>	
+	</div>
+</div><!-- b-contacts -->
+
+
+
+
+
+
+                </main><!-- e:main -->
+
+
+            </div><!-- b:m-content -->
+            
+            <footer class="app-footer">
+	<div class="app-footer__top">
+		<div class="app-footer__top-content site-width wow animate__fadeInUp" data-wow-delay=".3s">
+			<div class="app-footer__logo"><a href="/index.html"><img src="img/logo.png"></a></div>
+			<nav class="app-footer__lists">
+				<ul class="app-footer__list">
+					<li><a class="js-scroll" href="#friends">Преимущества</a></li>
+					<li><a class="js-scroll" href="#form">Расчет стоимости</a></li>
+					<li><a class="js-scroll" href="#slider">Команда</a></li>
+					<li><a class="js-scroll" href="#certificates">Сертификаты</a></li>
+					<li><a class="js-scroll" href="#contacts">Контакты</a></li>
+				</ul>
+			</nav>
+			<div class="app-footer__block">
+				<div class="app-footer__phone"><a href="tel:+998990000000">+998 (99) 000-00-00</a></div>
+				<div class="app-footer__button"><a href="#popup" class="btn-1">Заказать звонок</a></div>
+			</div>
+		</div>
+	</div>
+	<div class="app-footer__bottom">
+		<div class="app-footer__content site-width">
+			<div class="app-footer__copyright wow animate__fadeInUp" data-wow-delay=".8s" data-wow-offset="-50">
+				Copyright © 2021
+				<a href="#">
+					Политика конфиденциальности
+				</a>
+			</div>
+		</div>
+	</div>
+</footer><!-- b:app-footer -->
+
+
+        </div><!-- b:wrapper -->
+
+        <button type="button" class="page-scroller">
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20" class="page-scroller__ctrl">
+        <path d="M2.582 13.891c-0.272 0.268-0.709 0.268-0.979 0s-0.271-0.701 0-0.969l7.908-7.83c0.27-0.268 0.707-0.268 0.979 0l7.908 7.83c0.27 0.268 0.27 0.701 0 0.969s-0.709 0.268-0.978 0l-7.42-7.141-7.418 7.141z"></path>
+    </svg>
+</button><!-- b:m-page-scroller -->
+
+
+        
+	<div data-remodal-id="popup" data-remodal-options="hashTracking: true, closeOnOutsideClick: true" class="remodal">
+    <div data-remodal-action="close" class="remodal-close"></div>
+    <div class="remodal-content">
+    	<form autocomplete="on" action="email.php" method="post" class="remodal-form"> 
+    		<div class="remodal-form__title">Заказать звонок</div>
+    		<div class="remodal-form__item">
+    			<input id="name" type="name" placeholder="Ваше имя">
+    		</div>
+    		<div class="remodal-form__item">
+    			<input required="" id="phone" type="phone" placeholder="Ваш номер телефона">
+    		</div>
+    		<div class="remodal-form__item">
+    			<input required="" id="email" type="email" placeholder="Ваш email">
+    		</div>
+    		<button id="send" type="submit" class="remodal-form__button btn-1">Отправить</button>
+			<label class="remodal-form__send">
+				<div class="b-check">
+					<input type="checkbox" name="rememberPopup" required="" checked="">
+					<div class="b-check__in"></div>
+				</div>
+				<div class="remodal-form__send-text">
+					Согласен на обработку персональных данных. <a href="#">Ознакомиться</a>
+				</div>
+			</label>
+    	</form>
+    </div>
+</div>
+
+<script type="text/javascript">
+  function validateEmail(email) { 
+    var reg = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return reg.test(email);
+}
+</script>
+<div data-remodal-id="popupThank" data-remodal-options="hashTracking: true, closeOnOutsideClick: true" class="remodal">
+    <div data-remodal-action="close" class="remodal-close"></div>
+	<div class="remodal__title">Спасибо за вашу заявку! <br>Мы с вами свяжемся в <br>течение 10-ти минут</div>
+</div>
+
+
+<div data-remodal-id="popup2" data-remodal-options="hashTracking: true, closeOnOutsideClick: true" class="remodal">
+    <div data-remodal-action="close" class="remodal-close"></div>
+    <div class="remodal-content">
+    	<form action="#popup2Thank" class="remodal-form">
+    		<div class="remodal-form__title">Связь со специалистом</div>
+    		<div class="remodal-form__item">
+    			<input required="" type="text" placeholder="Ваше имя">
+    		</div>
+    		<div class="remodal-form__item">
+    			<input required="" type="tel" placeholder="Ваш номер телефона">
+    		</div>
+    		<div class="remodal-form__item">
+    			<input required="" type="mail" placeholder="Ваш email">
+    		</div>
+    		<div class="remodal-form__item">
+    			<textarea name="text" cols="30" rows="10" placeholder="Ваше сообщение"></textarea>
+    		</div>
+    		<button type="submit" class="remodal-form__button btn-1">Отправить</button>
+			<label class="remodal-form__send">
+				<div class="b-check">
+					<input type="checkbox" name="rememberPopup2" required="" checked="">
+					<div class="b-check__in"></div>
+				</div>
+				<div class="remodal-form__send-text">
+					Согласен на обработку персональных данных. <a href="#">Ознакомиться</a>
+				</div>
+			</label>
+    	</form>
+    </div>
+</div>
+
+
+
+
+<div data-remodal-id="popup2Thank" data-remodal-options="hashTracking: true, closeOnOutsideClick: true" class="remodal">
+    <div data-remodal-action="close" class="remodal-close"></div>
+	<div class="remodal__title">Спасибо за ваше <br>сообщение! Мы вам ответим <br>в течение 10-ти минут</div>
+</div>
+
+
+
+
+        
+
+        <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&coordorder=longlat"></script>
+        <script src="js/vendors/jquery-3.4.1.min.js"></script>
+        <script src="js/plugins.min.js"></script>
+        <script src="js/app.js"></script>
+
+    </body><!-- b:w-page -->
+</html>
